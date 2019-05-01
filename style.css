@@ -52,6 +52,10 @@ h2 {
   margin:30px auto;
   padding:20 0 10 0px;
   border-radius:10px;
+
+}
+
+.block-detail {
   border-bottom: 5px solid rgb(46, 90, 150);
   border-top: 5px solid rgb(46, 90, 150);
 }
