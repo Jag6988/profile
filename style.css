@@ -86,20 +86,13 @@ cursor: pointer;
 }
 
 .getting-to-details {
-font-size: 15px;
-color:rgb(46, 90, 150);
+font-size: 12px;
 text-align:left;
 margin: 0 auto;
-}
-
-table, th, td {
-  border: 1px solid rgb(46, 90, 150);
 }
 
 th {
 background-color: rgb(46, 90, 150);
 color: white;
 }
-td {
-color: rgb(46, 90, 150);
-}
+
