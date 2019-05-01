@@ -102,11 +102,11 @@ color: white;
 }
 
 .first-line{
-  display:inline-block;
+  display: flex;
   margin:0 auto;
   justify-content: space-between;
 }
 #logo {
-  height:30px;
+  height:40px;
   width:auto;
 }
