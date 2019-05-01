@@ -84,3 +84,10 @@ height:auto;
 text-decoration: underline;
 cursor: pointer;
 }
+
+.getting-to-details {
+font-size: 10px;
+color:rgb(200, 200, 200);
+border : 1px rgb(250, 250, 250);
+text-align:left;
+}
