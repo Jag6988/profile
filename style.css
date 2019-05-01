@@ -71,6 +71,7 @@ i {
   list-style:none;
   display: inline-block;
   margin:30px;
+  background-color: white;
  }
 
 p {
@@ -109,4 +110,8 @@ color: white;
 #logo {
   height:40px;
   width:auto;
+}
+
+ul {
+  background-color: rgb(46, 90, 150);
 }
