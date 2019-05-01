@@ -100,3 +100,9 @@ color: white;
   color: grey;
   font-size:30px;
 }
+
+.first-line{
+  display:inline;
+  margin:0 auto;
+  justify-content: space-between;
+}
