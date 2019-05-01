@@ -1,0 +1,70 @@
+
+
+body {
+  text-align: center;
+  background-color: #53b3cb10;
+  font-family: Montserrat;
+}
+
+h1 {
+  color: #53b3cb;
+}
+
+h2 {
+  width:800px;
+  background-color: #53b3cb70;
+}
+#profil_picture{
+  width: 200px;
+  height:auto;
+  border-radius:50%;
+  margin:0px auto;
+}
+
+.colonne {
+  background-color: white;
+  width: 800px;
+  margin:0px auto;
+}
+
+.Header{
+  background-color: white;
+  width:800px;
+  padding:auto;
+  border-radius:10px;
+  margin:0px auto;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+}
+.link {
+  width:200px;
+  margin: 20px;
+  padding:20px;
+  background-color: #53b3cb;
+  text-decoration: none;
+  border-radius:10px;
+  color: white;
+  font-weight: bold;
+}
+
+.detail {
+  background-color: #53b3cb30;
+  width:800px;
+  margin:30px auto;
+  padding:20 0 10 0px;
+  border-radius:10px;
+}
+
+.detail:hover {
+opacity:0.6;
+}
+i {
+  font-size:50px;
+  color: #53b3cb;
+}
+ li {
+  list-style:none;
+  display: inline-block;
+  margin:30px;
+ }
+
