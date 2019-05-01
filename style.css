@@ -57,8 +57,7 @@ h2 {
 }
 
 .block-detail {
-  border-bottom: 5px solid rgb(46, 90, 150);
-  border-top: 5px solid rgb(46, 90, 150);
+  border-top: 2px solid rgb(46, 90, 150);
 }
 
 .detail:hover {
@@ -99,4 +98,5 @@ color: white;
 .debut {
   text-align: left;
   color: grey;
+  font-size:30px;
 }
