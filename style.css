@@ -102,7 +102,11 @@ color: white;
 }
 
 .first-line{
-  display:inline;
+  display:inline-block;
   margin:0 auto;
   justify-content: space-between;
+}
+#logo {
+  height:30px;
+  width:auto;
 }
