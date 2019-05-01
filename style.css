@@ -2,7 +2,7 @@
 
 body {
   text-align: center;
-  background-color: #53b3cb10;
+  background-color: rgb(250, 250, 250);
   font-family: Montserrat;
   color:grey;
 }
@@ -26,6 +26,7 @@ h2 {
   background-color: white;
   width: 800px;
   margin:0px auto;
+  border-radius:10px;
 }
 
 .Header{
