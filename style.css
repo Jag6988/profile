@@ -2,9 +2,10 @@
 
 body {
   text-align: center;
-  background-color: rgb(250, 250, 250);
   font-family: Montserrat;
   color:grey;
+  background-color: rgb(46, 90, 150);
+  background: linear-gradient(white, rgb(46, 90, 150));
 }
 
 h1 {
@@ -138,4 +139,128 @@ ul {
   display:flex;
   align-items:center;
   margin:20px 0px 70px 0px;
+}
+
+.animation {
+  width: 50px;
+  height: 50px;
+  background-image:url(images/oiseau3.png);
+  background-size: 50px;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  -webkit-animation: myfirst 10s linear 1s; /* Safari 4.0 - 8.0 */
+  animation: myfirst 10s linear 1s;
+  left:500px;
+  top:53px;
+}
+@-webkit-keyframes myfirst {
+  0%   {background-image:url(images/oiseau1.png);left:50px; top:50px;}
+  1%  {background-image:url(images/oiseau2.png);left:55px; top:50px;}
+  2%  { background-image:url(images/oiseau3.png);left:60px; top:55px;}
+  3%  { background-image:url(images/oiseau4.png);left:65px; top:55px;}
+  4% { background-image:url(images/oiseau5.png);left:70px; top:50px;}
+  5% { background-image:url(images/oiseau4.png);left:75px; top:50px;}
+  6% { background-image:url(images/oiseau3.png);left:80px; top:55px;}
+  7% { background-image:url(images/oiseau2.png);left:85px; top:55px;}
+  8% { background-image:url(images/oiseau1.png);left:90px; top:60px;}
+  9% { background-image:url(images/oiseau2.png);left:95px; top:60px;}
+  10% { background-image:url(images/oiseau3.png);left:100px; top:70px;}
+  11% { background-image:url(images/oiseau4.png);left:105px; top:80px;}
+  12% { background-image:url(images/oiseau5.png);left:110px; top:70px;}
+  13%   {background-image:url(images/oiseau1.png);left:115px; top:90px;}
+  14%  {background-image:url(images/oiseau2.png);left:120px; top:100px;}
+  15%  { background-image:url(images/oiseau3.png);left:125px; top:90px;}
+  16%  { background-image:url(images/oiseau4.png);left:130px; top:90px;}
+  17% { background-image:url(images/oiseau5.png);left:135px; top:80px;}
+  18% { background-image:url(images/oiseau4.png);left:140px; top:60px;}
+  19% { background-image:url(images/oiseau3.png);left:145px; top:70px;}
+  20% { background-image:url(images/oiseau2.png);left:150px; top:90px;}
+  21% { background-image:url(images/oiseau1.png);left:155px; top:90px;}
+  22% { background-image:url(images/oiseau2.png);left:160px; top:90px;}
+  23% { background-image:url(images/oiseau3.png);left:165px; top:70px;}
+  24% { background-image:url(images/oiseau4.png);left:170px; top:60px;}
+  25% { background-image:url(images/oiseau5.png);left:175px; top:50px;}
+
+  26%   {background-image:url(images/oiseau1.png);left:180px; top:40px;}
+  27%  {background-image:url(images/oiseau2.png);left:185px; top:30px;}
+  28%  { background-image:url(images/oiseau3.png);left:190px; top:20px;}
+  29%  { background-image:url(images/oiseau4.png);left:195px; top:20px;}
+  30% { background-image:url(images/oiseau5.png);left:200px; top:20px;}
+  31% { background-image:url(images/oiseau4.png);left:205px; top:15px;}
+  32% { background-image:url(images/oiseau3.png);left:210px; top:30px;}
+  33% { background-image:url(images/oiseau2.png);left:215px; top:40px;}
+  34% { background-image:url(images/oiseau1.png);left:220px; top:50px;}
+  35% { background-image:url(images/oiseau2.png);left:225px; top:50px;}
+  36% { background-image:url(images/oiseau3.png);left:230px; top:50px;}
+  37% { background-image:url(images/oiseau4.png);left:235px; top:30px;}
+  38% { background-image:url(images/oiseau5.png);left:240px; top:10px;}
+  39%   {background-image:url(images/oiseau1.png);left:245px; top:20px;}
+  40%  {background-image:url(images/oiseau2.png);left:250px; top:20px;}
+  41%  { background-image:url(images/oiseau3.png);left:255px; top:20px;}
+  42%  { background-image:url(images/oiseau4.png);left:260px; top:20px;}
+  43% { background-image:url(images/oiseau5.png);left:265px; top:25px;}
+  44% { background-image:url(images/oiseau4.png);left:270px; top:30px;}
+  45% { background-image:url(images/oiseau3.png);left:275px; top:35px;}
+  46% { background-image:url(images/oiseau2.png);left:280px; top:40px;}
+  47% { background-image:url(images/oiseau1.png);left:285px; top:45px;}
+  48% { background-image:url(images/oiseau2.png);left:290px; top:50px;}
+  49% { background-image:url(images/oiseau3.png);left:295px; top:55px;}
+  50% { background-image:url(images/oiseau4.png);left:300px; top:55px;}
+  51% { background-image:url(images/oiseau5.png);left:305px; top:50px;}
+
+  52%   {background-image:url(images/oiseau1.png);left:310px; top:50px;}
+  53%  {background-image:url(images/oiseau2.png);left:315px; top:50px;}
+  54%  { background-image:url(images/oiseau3.png);left:320px; top:50px;}
+  55%  { background-image:url(images/oiseau4.png);left:325px; top:50px;}
+  56% { background-image:url(images/oiseau5.png);left:330px; top:50px;}
+  57% { background-image:url(images/oiseau4.png);left:335px; top:50px;}
+  58% { background-image:url(images/oiseau3.png);left:340px; top:45px;}
+  59% { background-image:url(images/oiseau2.png);left:345px; top:40px;}
+  60% { background-image:url(images/oiseau1.png);left:350px; top:40px;}
+  61% { background-image:url(images/oiseau2.png);left:355px; top:40px;}
+  62% { background-image:url(images/oiseau3.png);left:360px; top:45px;}
+  63% { background-image:url(images/oiseau4.png);left:365px; top:45px;}
+  64% { background-image:url(images/oiseau5.png);left:370px; top:50px;}
+  65%   {background-image:url(images/oiseau1.png);left:375px; top:50px;}
+  66%  {background-image:url(images/oiseau2.png);left:380px; top:50px;}
+  67%  { background-image:url(images/oiseau3.png);left:385px; top:50px;}
+  68%  { background-image:url(images/oiseau4.png);left:390px; top:50px;}
+  69% { background-image:url(images/oiseau5.png);left:395px; top:50px;}
+  70% { background-image:url(images/oiseau4.png);left:400px; top:60px;}
+  71% { background-image:url(images/oiseau3.png);left:405px; top:60px;}
+  72% { background-image:url(images/oiseau2.png);left:410px; top:60px;}
+  73% { background-image:url(images/oiseau1.png);left:415px; top:55px;}
+  74% { background-image:url(images/oiseau2.png);left:420px; top:55px;}
+  75% { background-image:url(images/oiseau3.png);left:425px; top:50px;}
+  76% { background-image:url(images/oiseau4.png);left:430px; top:50px;}
+  77% { background-image:url(images/oiseau5.png);left:435px; top:45px;}
+
+  78%   {background-image:url(images/oiseau1.png);left:440px; top:45px;}
+  79%  {background-image:url(images/oiseau2.png);left:445px; top:40px;}
+  80%  { background-image:url(images/oiseau3.png);left:450px; top:40px;}
+  81%  { background-image:url(images/oiseau4.png);left:455px; top:40px;}
+  82% { background-image:url(images/oiseau5.png);left:460px; top:35px;}
+  83% { background-image:url(images/oiseau4.png);left:465px; top:35px;}
+  84% { background-image:url(images/oiseau3.png);left:470px; top:35px;}
+  85% { background-image:url(images/oiseau2.png);left:475px; top:30px;}
+  86% { background-image:url(images/oiseau1.png);left:480px; top:30px;}
+  87% { background-image:url(images/oiseau2.png);left:485px; top:30px;}
+  88% { background-image:url(images/oiseau3.png);left:490px; top:20px;}
+  89% { background-image:url(images/oiseau4.png);left:495px; top:20px;}
+  90% { background-image:url(images/oiseau5.png);left:496px; top:10px;}
+  91%   {background-image:url(images/oiseau1.png);left:496px; top:5px;}
+  92%  {background-image:url(images/oiseau2.png);left:497px; top:10px;}
+  93%  { background-image:url(images/oiseau3.png);left:497px; top:15px;}
+  94%  { background-image:url(images/oiseau4.png);left:498px; top:20px;}
+  95% { background-image:url(images/oiseau5.png);left:498px; top:25px;}
+  96% { background-image:url(images/oiseau4.png);left:499px; top:30px;}
+  97% { background-image:url(images/oiseau3.png);left:499px; top:35px;}
+  98% { background-image:url(images/oiseau2.png);left:499px; top:40px;}
+  99% { background-image:url(images/oiseau1.png);left:500px; top:45px;}
+  100% { background-image:url(images/oiseau2.png);left:500px; top:50px;}
+
+}
+}
+}
 }
