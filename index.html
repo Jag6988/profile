@@ -8,14 +8,68 @@
     <meta name="description" content="Page description. No longer than 155 characters.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
+    <script type="text/javascript">
+window.onload = function () {
+  var chart = new CanvasJS.Chart("chartContainer",
+  {
+    title:{
+    },
+
+    data: [
+    {
+      type: "pie",
+      showInLegend: false,
+      legendText: "{indexLabel}",
+      dataPoints: [
+        { y: 10, indexLabel: "FullStack Programmer" },
+        { y: 30, indexLabel: "Corporate Finance" },
+        { y: 20, indexLabel: "Internal Processing" },
+        { y: 40, indexLabel: "Entrepreuneur"},
+      ]
+    }
+    ]
+  });
+  chart.render();
+}
+</script>
+<script type="text/javascript" src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
   </head>
   <body>
     <div class= "container">
       <div class="Header">
+        <div class ="nom">
         <h1 class ="nom">Jean-Guillaume HERBRETEAU</h1>
         <img src="images/JGH 1.jpg" alt="Photo JGH" id="profil_picture">
-        <p>Entrepreuneur specialized in Coroporate Finance looking for business opportunities!</p><br>
-        <a class="link" href="#">Get in contact</a><br><br><br>
+        <a class="link" href="#">Get in contact</a>
+      </div>
+      <p style = "background-color:rgb(111, 153, 211); color:white; font-style : italic; margin:0px; padding: 5px;">"Entrepreuneur & FullStack programmer specialized in Corporate Finance looking for business opportunities!"</p>
+      <h1 style = "text-align: left;">Who am I?</h1>
+        <div class ="presentation">
+         <div id="chartContainer" style="height: 200px; width: 100%;"></div>
+         <table class ="getting-to-details">
+          <tr class="Header">
+            <th align="left">Topics</th>
+            <th align="left">Knowledge</th>
+          </tr>
+          <tr>
+            <td>Entrepreuneur</td>
+            <td >Confidence, projecting, flexibility, risk resilient</td>
+          </tr>
+          <tr>
+            <td>FullStack Developper</td>
+            <td >Ruby, SQL, HTML, CSS</td>
+          </tr>
+          <tr>
+            <td>Corporate Finance</td>
+            <td >French, US & IFRS GAAP / Cost Controlling / Cash piloting / Financing</td>
+          </tr>
+          <tr>
+            <td>Internal processing</td>
+            <td >Internal control, project management, leading change</td>
+          </tr>
+        </table>
+        </div>
+        <a href="https://www.jghfinance.com/services?wix-vod-video-id=6f0e1cd1a4334e468124e7c84a6ee846&wix-vod-comp-id=comp-jk0xjeuh#">IBM Linux commercial</a>
       </div>
       <h1 class = "debut">Working experience</h1>
       <div class ="block-detail">
@@ -27,8 +81,11 @@
           <h2><img src="images/logo JGHfinance.jpg" id ="logo"></h2>
         </div>
         <details>
-        <p>Company found in may 2018 providing companies corpporate finance skills and project's management. Strong skills in Business plans and internal processing.</p>
+        <p>Company found in may 2018 offering corporate finance skills and project's management to companies. Strong skills in Business plans and internal processing.</p>
         <table class ="getting-to-details">
+              <col width="50px" />
+              <col width="200px" />
+              <col width="550px" />
           <tr class="Header">
             <th align="left">Date</th>
             <th align="left">Topic</th>
@@ -46,12 +103,12 @@
           </tr>
           <tr>
             <td >10/12/2018</td>
-            <td >AMF presentation</td>
-            <td>Co-animation with the AMF of a training adressed to SBF 120 CFOs for XBRL financial packages.</td>
+            <td >AMF invitation</td>
+            <td>Co-presentation with the AMF of a training adressed to SBF 120 CFOs for XBRL financial packages.</td>
           </tr>
           <tr>
             <td >27/12/2018</td>
-            <td >I had to refuse a client</td>
+            <td >No more clients</td>
             <td>First time i had to say that i cannot accept a new client.</td>
           </tr>
         </table>
@@ -64,15 +121,18 @@
           <h2><img src="images/logo GV.jpg" id ="logo"></h2>
         </div>
         <details>
-        <p>Daily managing financial department and financial processes within the company. Closely work with CEO on financing activites & business plan</p>
+        <p>Managing financial department and financial processes within the company. Closely work with CEO on financing activites & business plan</p>
         <table class ="getting-to-details">
+              <col width="50px" />
+              <col width="200px" />
+              <col width="550px" />
           <tr class="Header">
             <th align="left">Date</th>
             <th align="left">Topic</th>
             <th align="left">Key facts</th>
           </tr>
           <tr>
-            <td >01/30/2015</td>
+            <td >01/04/2015</td>
             <td >Start</td>
             <td>New job, new start, new challenges.</td>
           </tr>
@@ -98,6 +158,9 @@
         <details>
         <p>3 years of auditing oil & gas companies in Africa</p>
         <table class ="getting-to-details">
+              <col width="50px" />
+              <col width="200px" />
+              <col width="550px" />
           <tr class="Header">
             <th align="left">Date</th>
             <th align="left">Topic</th>
@@ -109,14 +172,44 @@
             <td>First time in Africa. Wahou! W</td>
           </tr>
           <tr>
-            <td >02/8/2014</td>
+            <td >02/08/2014</td>
             <td >Welcome to Congo Brazza!</td>
             <td>People so nice and welcoming compared to Nigeria. I love it!</td>
           </tr>
           <tr>
-            <td >02/8/2015</td>
+            <td >02/08/2015</td>
             <td >Welcome to Algeria</td>
             <td>Miam Miam Miam!!</td>
+          </tr>
+        </table>
+        </details>
+      </div>
+            <div class = "detail">
+        <div class ="first-line">
+          <h2>2010</h2>
+          <h2>Pernod Ricard</h2>
+          <h2><img src="images/Pernod_Ricard.png" id ="logo"></h2>
+        </div>
+        <details>
+        <p>2 years learning what corporate finance is about both in France & in the UK .</p>
+        <table class ="getting-to-details">
+              <col width="50px" />
+              <col width="200px" />
+              <col width="550px" />
+          <tr class="Header">
+            <th align="left">Date</th>
+            <th align="left">Topic</th>
+            <th align="left">Key facts</th>
+          </tr>
+          <tr>
+            <td >01/07/2010</td>
+            <td >Welcome to Pernod Ricard Europe</td>
+            <td>Amazing team, amazing companies, amazing products to work with</td>
+          </tr>
+          <tr>
+            <td >01/07/2011</td>
+            <td >Welcome to UK!</td>
+            <td>So much fun in London...</td>
           </tr>
         </table>
         </details>
@@ -134,6 +227,9 @@
         <details>
         <p>Now i can say. I AM A PROGRAMMER!!!!  </p>
         <table class ="getting-to-details">
+              <col width="50px" />
+              <col width="200px" />
+              <col width="550px" />
           <tr class="Header">
             <th align="left">Date</th>
             <th align="left">Topic</th>
@@ -152,7 +248,7 @@
           <tr>
             <td >08/06/2019</td>
             <td >Graduation</td>
-            <td>I hope there will be lot of beers for celebration the new promo. Matthieu, do not Forget!!</td>
+            <td>I hope there will be lot of beers for celebrating the new promo. Matthieu, do not Forget!!</td>
           </tr>
         </table>
         </details>
@@ -166,6 +262,9 @@
         <details>
         <p>I do know what to say apart saying thank you for giving me such a good time! Sometime i wish i could behave as a student again....</p>
         <table class ="getting-to-details">
+              <col width="50px" />
+              <col width="200px" />
+              <col width="550px" />
           <tr class="Header">
             <th align="left">Date</th>
             <th align="left">Topic</th>
@@ -186,13 +285,16 @@
       </div>
         <div class = "detail">
         <div class ="first-line">
-          <h2>2009</h2>
+          <h2>2006</h2>
           <h2>Paris-Dauphine University</h2>
           <h2><img src="images/Logo UPD.jpg" id ="logo"></h2>
         </div>
         <details>
         <p>Welcome to Paris in a very excellent University. Thanks for learning & party with you!</p>
         <table class ="getting-to-details">
+              <col width="50px" />
+              <col width="200px" />
+              <col width="550px" />
           <tr class="Header">
             <th align="left">Date</th>
             <th align="left">Topic</th>
@@ -219,6 +321,9 @@
         <details>
         <p>I am the happy father of 2 wonderfull kids!</p>
         <table class ="getting-to-details">
+              <col width="50px" />
+              <col width="200px" />
+              <col width="550px" />
           <tr class="Header">
             <th align="left">Date</th>
             <th align="left">Topic</th>
@@ -230,7 +335,7 @@
             <td>It is just completely crazy to become a father. Very proud and impressed by my wife. Respect!</td>
           </tr>
           <tr>
-            <td >02/8/2017</td>
+            <td >02/08/2017</td>
             <td >Domitille</td>
             <td>A girl!! Incredible to realise that i have as much love to give for the second one than for the first! Happy life...</td>
           </tr>
@@ -242,6 +347,9 @@
         <details>
         <p>I am always in for a good tennis match</p>
         <table class ="getting-to-details">
+              <col width="50px" />
+              <col width="200px" />
+              <col width="550px" />
           <tr class="Header">
             <th align="left">Date</th>
             <th align="left">Topic</th>
