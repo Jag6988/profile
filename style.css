@@ -146,6 +146,7 @@ ul {
   height: 50px;
   background-image:url(images/oiseau3.png);
   background-size: 50px;
+  transition:0.1s;
   background-repeat: no-repeat;
   background-position: center;
   position: relative;
@@ -259,7 +260,6 @@ ul {
   98% { background-image:url(images/oiseau2.png);left:499px; top:40px;}
   99% { background-image:url(images/oiseau1.png);left:500px; top:45px;}
   100% { background-image:url(images/oiseau2.png);left:500px; top:50px;}
-
 }
 }
 }
